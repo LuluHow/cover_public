@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="COVER - The ultimate path puzzle game. Draw one continuous path to cover every cell. Neon cyberpunk design, 600+ unique levels.">
+    <meta name="keywords" content="puzzle game, path puzzle, mobile game, brain game, neon game, hamiltonian path">
+    <title>COVER - The Ultimate Path Puzzle Game</title>
+    <link rel="icon" type="image/png" href="assets/app_icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/app_icon.png" alt="COVER Logo" class="logo-icon">
+                <span class="logo-text">COVER</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assets/gameplay.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="neon-lines">
+            <div class="neon-line neon-line-1"></div>
+            <div class="neon-line neon-line-2"></div>
+            <div class="neon-line neon-line-3"></div>
+            <div class="neon-line neon-line-4"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title neon-text">
+                <span class="glitch" data-text="COVER">COVER</span>
+            </h1>
+            <p class="hero-subtitle">The Ultimate Path Puzzle Challenge</p>
+            <p class="hero-description">
+                Swipe, connect, and conquer! Draw the perfect path through neon grids.<br>
+                Can you COVER them all?
+            </p>
+            <div class="cta-buttons">
+                <a href="#download" class="btn btn-primary">
+                    <span class="btn-icon">📲</span> Download Now
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section id="gameplay" class="gameplay">
+        <div class="container">
+            <h2 class="section-title neon-text">How to Play</h2>
+            <div class="gameplay-grid">
+                <div class="gameplay-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Tap the Starting Door</h3>
+                        <p>Begin your path by tapping on the colored door that matches the first color in the sequence.</p>
+                    </div>
+                </div>
+                <div class="gameplay-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Swipe Through Cells</h3>
+                        <p>Draw your path by swiping through adjacent cells. Each cell can only be visited once.</p>
+                    </div>
+                </div>
+                <div class="gameplay-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Pass Through Doors</h3>
+                        <p>Navigate through colored doors in the correct order while avoiding walls.</p>
+                    </div>
+                </div>
+                <div class="gameplay-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Cover Every Cell</h3>
+                        <p>Complete the level by visiting every single cell on the grid exactly once.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What is Hamiltonian Path -->
+            <div class="info-box">
+                <h3>🧠 What is a Hamiltonian Path?</h3>
+                <p>A Hamiltonian path is a mathematical concept - a path in a graph that visits every vertex exactly once. In COVER, you'll solve this classic problem in a fun, visual way with added challenges like walls and colored doors!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title neon-text">Experience the Neon</h2>
+            <div class="screenshots-grid">
+                <img src="assets/Simulator Screenshot - iPhone 16 Pro Max - 2025-11-16 at 13.34.55.png" alt="Menu Screen" class="screenshot-img">
+                <img src="assets/Simulator Screenshot - iPhone 16 Pro Max - 2025-11-16 at 13.35.07.png" alt="Level Selection" class="screenshot-img">
+                <img src="assets/Simulator Screenshot - iPhone 16 Pro Max - 2025-11-16 at 13.35.37.png" alt="Gameplay" class="screenshot-img">
+                <img src="assets/Simulator Screenshot - iPhone 16 Pro Max - 2025-11-16 at 16.19.04.png" alt="Victory Screen" class="screenshot-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title neon-text">Download COVER</h2>
+            <p class="download-subtitle">Available on iOS</p>
+            <div class="download-buttons">
+                <a href="#" class="app-store-badge-link">
+                    <img src="assets/app-store-badge-fr.svg" alt="Download on the App Store" class="app-store-badge">
+                </a>
+            </div>
+            <div class="download-stats">
+                <div class="stat">
+                    <div class="stat-number">600+</div>
+                    <div class="stat-label">Levels</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">Free</div>
+                    <div class="stat-label">Download</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="logo-text">COVER</h3>
+                    <p>The Ultimate Path Puzzle Game</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="support.html#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.tiktok.com/@covertheapp" aria-label="TikTok">
+                            <img src="assets/icons8-tiktok-48.png" alt="TikTok" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 COVER. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
